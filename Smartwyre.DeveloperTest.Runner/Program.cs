@@ -64,10 +64,13 @@ class Program
 
             Console.WriteLine("Would you like to continue? Say 'Yes' Or 'No' \n");
             var choice = Console.ReadLine();
-            if(choice.ToLower()=="yes")
+            Console.WriteLine();
+            if (choice.ToLower()=="yes")
                 shouldContinue = true;
             else
                 shouldContinue = false;
+
+           
         }
     }
 }
